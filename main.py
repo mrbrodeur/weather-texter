@@ -1,4 +1,3 @@
-import datetime as dt
 from dotenv import load_dotenv
 import requests
 import os
@@ -26,9 +25,7 @@ for hour_data in data:
         will_rain = True
 
 if will_rain:
-    msg = "Wear shoes with no holes today."
-    print(msg)
-else:
-    msg = "No rain in the forecast."
+    print("precipitation")
+
 
 
